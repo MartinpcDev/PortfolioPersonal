@@ -1,10 +1,9 @@
-import { useState } from 'react';
-import { NavBar } from './components/NavBar';
+import { Header } from './components/Header';
 
 export const App = () => {
 	return (
 		<>
-			<NavBar />
+			<Header />
 		</>
 	);
 };
