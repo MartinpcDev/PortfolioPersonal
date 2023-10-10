@@ -130,11 +130,21 @@ c72 70 115 120 122 142 6 19 22 64 36 102 14 37 24 67 22 67 -2 0 -21 -33 -43
 					<span class='ml-3 text-xl'>MartinPC</span>
 				</a>
 				<nav class='md:ml-auto flex flex-wrap items-center text-base justify-center'>
-					<a class='mr-5 hover:text-white cursor-pointer'>Inicio</a>
-					<a class='mr-5 hover:text-white cursor-pointer'>Sobre Mi</a>
-					<a class='mr-5 hover:text-white cursor-pointer'>Habilidades</a>
-					<a class='mr-5 hover:text-white cursor-pointer'>Proyectos</a>
-					<a class='mr-5 hover:text-white cursor-pointer'>Contacto</a>
+					<a class='mr-5 hover:text-white cursor-pointer' href='#inicio'>
+						Inicio
+					</a>
+					<a class='mr-5 hover:text-white cursor-pointer' href='#sobre'>
+						Sobre Mi
+					</a>
+					<a class='mr-5 hover:text-white cursor-pointer' href='#habilidades'>
+						Habilidades
+					</a>
+					<a class='mr-5 hover:text-white cursor-pointer' href='#proyectos'>
+						Proyectos
+					</a>
+					<a class='mr-5 hover:text-white cursor-pointer' href='#contacto'>
+						Contacto
+					</a>
 				</nav>
 			</div>
 		</header>
