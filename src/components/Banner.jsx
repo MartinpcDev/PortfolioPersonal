@@ -1,7 +1,9 @@
 export const Banner = () => {
 	return (
 		<>
-			<h1>Aqui va el banner</h1>;
+			<section className='w-[100vh] text-titulos'>
+				<h1 className='w-8'>Martin Palomino</h1>
+			</section>
 		</>
 	);
 };
