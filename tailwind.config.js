@@ -17,6 +17,15 @@ export default {
 			},
 			fontFamily: {
 				code: ['Source Code Pro', 'monospace']
+			},
+			fontWeight: {
+				titulos: '700',
+				parrafos: '400'
+			},
+			fontSize: {
+				tamanotitulos: '1.25rem',
+				tamanoparrafos: '1rem',
+				tamanocards: '0.75rem'
 			}
 		}
 	},
