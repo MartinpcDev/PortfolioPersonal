@@ -1,5 +1,6 @@
 import { Banner } from './components/Banner';
 import { Header } from './components/Header';
+import { Proyects } from './components/Proyects';
 import { Skills } from './components/Skills';
 
 export const App = () => {
@@ -8,6 +9,7 @@ export const App = () => {
 			<Header />
 			<Banner />
 			<Skills />
+			<Proyects />
 		</>
 	);
 };

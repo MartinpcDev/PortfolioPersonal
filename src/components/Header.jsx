@@ -1,4 +1,4 @@
-import Logo from '../assets/logosinfondo.svg';
+import Logo from '../assets/images/logosinfondo.svg';
 
 export const Header = () => {
 	return (

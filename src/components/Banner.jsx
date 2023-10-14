@@ -1,4 +1,4 @@
-import Foto from '../assets/perfil.png';
+import Foto from '../assets/images/perfil.png';
 
 export const Banner = () => {
 	return (
