@@ -7,16 +7,16 @@ export const Footer = () => {
 		return fecha.getFullYear();
 	};
 	return (
-		<footer class='text-parrafoBajo bg-footer body-font'>
-			<div class='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
-				<a class='flex title-font font-medium items-center md:justify-start justify-center '>
+		<footer className='text-parrafoBajo bg-footer body-font'>
+			<div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
+				<a className='flex title-font font-medium items-center md:justify-start justify-center '>
 					<img src={Logo} className='w-10' />
-					<span class='ml-3 text-xl'>MartinPC</span>
+					<span className='ml-3 text-xl'>MartinPC</span>
 				</a>
-				<p class='text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4'>
+				<p className='text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4'>
 					© {date()} MartinPC
 				</p>
-				<span class='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
+				<span className='inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start'>
 					<a
 						className='ml-3'
 						href='https://github.com/MartinChristopherPC'
