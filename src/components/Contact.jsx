@@ -14,14 +14,15 @@ export const Contact = () => {
 					<a
 						href='https://www.linkedin.com/in/martinchris-palomino/'
 						target='_blank'
-						className='text-[#0AFF9D]'>
+						className='text-titulos hover:text-[#0AFF9D] duration-300'>
 						{' '}
 						Linkedln
 					</a>{' '}
 					o puedes contactarme por el correo:
 				</p>
 				<p className='text-titulos font-titulos text-tamanotitulos pt-3 flex flex-row justify-center items-center gap-2 hover:text-[#0AFF9D] duration-300 cursor-pointer'>
-					<AiOutlineMail /> <span>MartinChrisPC@hotmail.com</span>
+					<AiOutlineMail /> <span>MartinChrisPC@hotmail.com</span> o{' '}
+					<AiOutlineMail /> <span>martinchrispalomino@gmail.com</span>
 				</p>
 			</div>
 		</section>
