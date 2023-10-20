@@ -90,7 +90,9 @@ export const Proyects = () => {
 	];
 
 	return (
-		<section className='container w-full flex px-5 py-24 flex-col items-center justify-center mx-auto'>
+		<section
+			id='proyects'
+			className='container w-full flex px-5 py-24 flex-col items-center justify-center mx-auto'>
 			<h1 className='text-resaltadoGreen text-5xl font-titulos pb-7'>
 				Proyects
 			</h1>

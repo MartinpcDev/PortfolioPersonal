@@ -16,12 +16,12 @@ export const Header = () => {
 					</a>
 					<a
 						className='mr-5 hover:text-white cursor-pointer font-titulos duration-300'
-						href='#habilidades'>
-						Habilidades
+						href='#skills'>
+						Skills
 					</a>
 					<a
 						className='mr-5 hover:text-white cursor-pointer font-titulos duration-300'
-						href='#proyectos'>
+						href='#proyects'>
 						Proyectos
 					</a>
 					<a

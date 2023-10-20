@@ -18,7 +18,7 @@ export const Banner = () => {
 						gran entusiasmo con el dessarrollo de websites responsivos y
 						amigables para el usuario.
 					</p>
-					<div className='flex justify-center gap-4'>
+					<div className='flex flex-col justify-center gap-4 sm:flex-row'>
 						<a
 							className='relative px-5 py-3 overflow-hidden font-titulos text-secundario bg-titulos border border-titulos rounded-lg shadow-inner group'
 							href='https://github.com/MartinChristopherPC'
@@ -27,7 +27,7 @@ export const Banner = () => {
 							<span className='absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease'></span>
 							<span className='absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-150 bg-gray-600 group-hover:h-full ease'></span>
 							<span className='absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-150 bg-gray-600 group-hover:h-full ease'></span>
-							<span className='absolute inset-0 w-full h-full duration-300 delay-300 bg-secundario opacity-0 group-hover:opacity-100'></span>
+							<span className='absolute inset-0 w-full duration-300 delay-300 bg-secundario opacity-0 group-hover:opacity-100'></span>
 							<span className='relative transition-colors duration-300 delay-150 group-hover:text-titulos ease'>
 								Github
 							</span>
@@ -55,7 +55,7 @@ export const Banner = () => {
 							<span className='absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-150 bg-gray-600 group-hover:h-full ease'></span>
 							<span className='absolute inset-0 w-full h-full duration-300 delay-300 bg-secundario opacity-0 group-hover:opacity-100'></span>
 							<span className='relative transition-colors duration-300 delay-150 group-hover:text-titulos ease'>
-								Download CV
+								CV
 							</span>
 						</a>
 					</div>
