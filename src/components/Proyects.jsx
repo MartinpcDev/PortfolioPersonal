@@ -2,12 +2,16 @@ import { AiOutlineHtml5 } from 'react-icons/ai';
 import { ProyectCard } from './ProyectCard';
 import { BiLogoCss3, BiLogoJavascript, BiLogoReact } from 'react-icons/bi';
 import { SiTailwindcss } from 'react-icons/si';
+import CEncrypt from '../assets/ProyectsScreen/ChallengeEncrypt.webp';
+import Portfolio from '../assets/ProyectsScreen/portfolio.webp';
+import AluraGeek from '../assets/ProyectsScreen/AluraGeek.webp';
+import AluraFlix from '../assets/ProyectsScreen/AluraFlix.webp';
 
 export const Proyects = () => {
 	const proyects = [
 		{
 			titulo: 'Challenge Encriptador',
-			img: '/src/assets/ProyectsScreen/ChallengeEncrypt.webp',
+			img: CEncrypt,
 			descripcion: 'Programa diseñado para encriptar y desencriptar textos',
 			tecnologias: [
 				{
@@ -28,7 +32,7 @@ export const Proyects = () => {
 		},
 		{
 			titulo: 'Challenge Portfolio',
-			img: '/src/assets/ProyectsScreen/portfolio.webp',
+			img: Portfolio,
 			descripcion: 'Portfolio web parte del challenge de alura latam',
 			tecnologias: [
 				{
@@ -49,7 +53,7 @@ export const Proyects = () => {
 		},
 		{
 			titulo: 'Challenge AluraGeek',
-			img: '/src/assets/ProyectsScreen/AluraGeek.webp',
+			img: AluraGeek,
 			descripcion: 'Challenge Alura latam de diseño de un ecommerce',
 			tecnologias: [
 				{
@@ -71,7 +75,7 @@ export const Proyects = () => {
 		},
 		{
 			titulo: 'Challenge AluraFlix',
-			img: '/src/assets/ProyectsScreen/AluraFlix.webp',
+			img: AluraFlix,
 			descripcion:
 				'Challenge de alura latam hecho con React,React-Router, Tailwind y Consumo de Apis',
 			tecnologias: [
